@@ -1,30 +1,28 @@
 {
-    "name": "laravel-zero/laravel-zero",
-    "description": "The Laravel Zero Framework.",
-    "keywords": ["framework", "laravel", "laravel zero", "console", "cli"],
-    "homepage": "https://laravel-zero.com",
+    "name": "zeevx/benjamindada-cli",
+    "description": "Read all the latest BenjaminDada Blog headlines right from your terminal.",
+    "keywords": ["framework", "laravel", "benjamindada", "console", "cli"],
+    "homepage": "https://www.benjamindada.com",
     "type": "project",
     "license": "MIT",
     "support": {
-        "issues": "https://github.com/laravel-zero/laravel-zero/issues",
-        "source": "https://github.com/laravel-zero/laravel-zero"
+        "issues": "https://github.com/zeevx/benjamindada-cli/issues",
+        "source": "https://github.com/zeevx/benjamindada-cli"
     },
-    "authors": [
-        {
-            "name": "Nuno Maduro",
-            "email": "enunomaduro@gmail.com"
-        }
-    ],
+    "authors": [{
+        "name": "Adams Paul",
+        "email": "adamsohiani@gmail.com"
+    }],
     "require": {
         "php": "^7.3",
         "guzzlehttp/guzzle": "^6.5.5",
         "illuminate/http": "^8.0",
-        "laminas/laminas-text": "^2.7",
-        "laravel-zero/framework": "^8.0"
+        "laminas/laminas-text": "^2.7"
     },
     "require-dev": {
         "mockery/mockery": "^1.4.2",
-        "pestphp/pest": "^0.3"
+        "pestphp/pest": "^0.3",
+        "laravel-zero/framework": "^8.0"
     },
     "autoload": {
         "psr-4": {
@@ -43,5 +41,5 @@
     },
     "minimum-stability": "dev",
     "prefer-stable": true,
-    "bin": ["benjamindada"]
+    "bin": ["builds/benjamindada"]
 }
